@@ -91,6 +91,6 @@ function buildCharts(sample) {
       margin: { t: 30, 1: 150 }
     };
     // 10. Use Plotly to plot the data with the layout. 
-    Plotly.newPlot("bar", [barData], barLayout);
+    Plotly.newPlot("bar", barData, barLayout);
   });
 }
